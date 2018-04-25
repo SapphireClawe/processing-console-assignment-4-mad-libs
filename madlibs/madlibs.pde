@@ -7,6 +7,10 @@
  */
 
 void setup() {
+  String lines[] = loadStrings("poem.txt");
+  String nouns[] = loadStrings("nouns.txt");
+  String adjec[] = loadStrings("adjectives.txt");
+  String verbs[] = loadStrings("verbs.txt");
 
 }
 
