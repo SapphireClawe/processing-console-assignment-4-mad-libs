@@ -11,7 +11,7 @@ void setup() {
   String noun[] = loadStrings("data/nouns.txt");
   String adjective[] = loadStrings("data/adjectives.txt");
   String verb[] = loadStrings("data/verbs.txt");
-    for (int i = 0 ; i < poem.length; i++) 
+    for (int i = 0 ; i < poem.length; i++) {
   
       
   int d = int(random(noun.length-1));
@@ -25,6 +25,7 @@ void setup() {
     
     
   println(poem[i]);
+    }
 
 }
 
